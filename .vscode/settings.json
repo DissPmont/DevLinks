@@ -1,0 +1,23 @@
+{   
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders":false,
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "apc.font.family": "Inter",
+    "apc.listRow": {
+        "height": 24
+     },
+     "terminal.integrated.fontFamily": "JetBrains Mono Nerd Font",
+     
+
+
+}
