@@ -20,7 +20,6 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color-hover: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
-  --img-switch: url(./assets/avatar.png)
 }
 
 .light {
@@ -31,7 +30,6 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color-hover: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
-  --img-switch: url(./assets/avatar-light.png)
 }
 
 body {
@@ -76,10 +74,7 @@ elementos que por base são Inline: o cod ficaria
 }
 
 #profile img {
-  src: var(--img-switch);
-  display: block;
   width: 112px;
-  margin: auto;
 }
 
 #profile p {
