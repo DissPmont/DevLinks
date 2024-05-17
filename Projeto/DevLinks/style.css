@@ -20,6 +20,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color-hover: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --img-switch: url(./assets/avatar.png)
 }
 
 .light {
@@ -30,6 +31,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color-hover: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --img-switch: url(./assets/avatar-light.png)
 }
 
 body {
@@ -74,6 +76,7 @@ elementos que por base são Inline: o cod ficaria
 }
 
 #profile img {
+  src: var(--img-switch);
   display: block;
   width: 112px;
   margin: auto;
@@ -197,10 +200,10 @@ footer a {
 
 @media (min-width: 700px) {
   :root {
-    --br-url: url(.assets/Desktop/bg-desktop.jpg);
+    --br-url: url(.assets/bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(./assets/Desktop/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
